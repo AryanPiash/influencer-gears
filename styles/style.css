@@ -203,3 +203,71 @@ margin-top: 15px;
     opacity: 0.30;
     font-size: 11px;
 }
+
+/* Testimonial */
+
+.testimonial{}
+.client-title{
+    font-size: 45px;
+    color: #000;
+    text-align: center;
+    width: 35%;
+    margin: auto;
+    padding-top: 50px;
+}
+.container{
+    position: relative;
+}
+.clients-content{}
+.client-1{
+    position: absolute;
+    left: 200px;
+    top: 70px;
+}
+.image{
+    filter: grayscale(100%)
+}
+.image:hover{
+    filter: grayscale(0);
+    transition: all .5s linear;
+    cursor: pointer;
+}
+.client-2{
+    position: absolute;
+    right: 200px;
+    top: 70px;
+    
+}
+
+.client-3{
+    position: absolute;
+    left: 200px;
+    top: 285px;
+}
+.client-4{
+    position: absolute;
+    right: 200px;
+    top: 285px;
+}
+
+.main-content{
+    width: 600px;
+    height: 385px;
+    background: linear-gradient(45deg, #19a5a1 0%, #63e8e4 100%);
+    border-radius: 30px;
+}
+.main-content p{
+    font-weight: 500;
+    font-size: 26px;
+    color: #fff;
+    line-height: 40px;
+    padding: 50px 35px 10px 40px;
+}
+.main-content span{
+    font-size: 16px;
+    font-weight: 500;
+    color: #fff;
+    margin-top: 22px;
+    margin-left: 40px;
+    display: inline-block;
+}
