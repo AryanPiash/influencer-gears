@@ -339,7 +339,7 @@ nav{
 
  /* Mobile */
 
-    @media screen and (max-width:480px) {
+    /* @media screen and (max-width: 480px) {
         header{
             margin: auto;
         }
@@ -367,7 +367,7 @@ nav{
     font-size: 14px ;
     }
     .product-item{
-        /* display: grid; */
+        display: grid;
         grid-template-columns: repeat(1,1fr);
     }
 
@@ -430,10 +430,10 @@ nav{
 }
 
 
-}
+} */
 /* Tab Layout */
 
- @media screen and (max-width:768px) {
+ /* @media screen and (max-width:768px) {
      
      .section-left h1{
          font-size: 32px;
@@ -487,11 +487,11 @@ nav{
     font-size: 35px;
     width: 100%;
    }
- }
-/* 
+ } */
+
  /* Laptop */
  
-  @media (max-width:912px) {
+  /* @media (max-width:912px) {
      .brand-logos{
          margin-left: 50px;
      }
@@ -506,5 +506,5 @@ nav{
     .client-1,.client-2,.client-3,.client-4{
         display: none;
     }
- } 
+ }  */
 
